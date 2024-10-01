@@ -1,0 +1,17 @@
+{
+	"name": "batch-rename",
+	"module": "index.ts",
+	"type": "module",
+	"bin": "index.js",
+	"version": "1.0.0",
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	},
+	"dependencies": {
+		"@clack/core": "^0.3.4",
+		"@clack/prompts": "^0.7.0"
+	}
+}
